@@ -7,7 +7,11 @@
 ;; Views
 
 (defn home-page []
-  [:div [:h2 "Welcome to Reagent"]])
+  [:div [:h2 "Lists keep it simple"]
+   [:ul 
+    [:li "Boil the pasta"]
+    [:li "Grind the basil"]
+    [:li "Fry the garlic"]]])
 
 ;; -------------------------
 ;; Initialize app

@@ -1,3 +1,4 @@
+# reagent tutorial
 ## creating this project
 lein new reagent-frontend simpletodo +shadow-cljs
 
@@ -17,3 +18,8 @@ npx shadow-cljs release app
 ```
 ### use fixed ip
 then this one is simpler, just replace localhost with fixed ip will do
+
+## apply csse
+go to [sakura: a minimal classless css framework / theme](https://oxal.org/projects/sakura/)
+
+find cdn and add 

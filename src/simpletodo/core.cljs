@@ -7,7 +7,7 @@
 ;; Views
 
 (defn home-page []
-  [:div [:h2 "Welcome to Reagent2"]])
+  [:div [:h2 "Welcome to Reagent"]])
 
 ;; -------------------------
 ;; Initialize app

@@ -15,3 +15,5 @@ npx shadow-cljs browser-repl
 ```
 npx shadow-cljs release app
 ```
+### use fixed ip
+then this one is simpler, just replace localhost with fixed ip will do

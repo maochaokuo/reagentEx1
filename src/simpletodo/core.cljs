@@ -8,7 +8,18 @@
 
 (def todos (r/atom
             [{:desc "Fry the garlic" :color "green"}
-            |{:desc "Boil the pasta" :color "red"}]))
+             {:desc "Boil the pasta" :color "red"}]))
+
+(defn todo-form []
+    [new-item (r/atom "")]
+  [:form {on-submit (fn [e]
+                      (.preventDefault e)
+                      ())}
+    [:input {:type "text" 
+             :value @new-item
+             :placeholder "Add a new item"
+             :on-change (fn [e
+                          (reset! new-item (.-value (.-target e))))}]])$ ;  }]])
 
 (defn todo-item [todo]
   [:li {:style {:color (:color todo)}} (:desc todo)])
